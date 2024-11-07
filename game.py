@@ -18,7 +18,7 @@ while (guessNum < 10):
     else:
         print("You guessed correct!")
         break
-
+    print("That was attempt", (guessNum + 1))
     guessNum += 1
 
 if (guessNum == 10 and curr_guess != number):
